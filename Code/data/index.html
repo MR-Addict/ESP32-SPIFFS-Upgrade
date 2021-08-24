@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ESP32 Web Server" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>ESP32 Web Server</title>
+  </head>
+  <body>
+    <h1>ESP32 Web Server</h1>
+    <p id="LED">LED OFF</p>
+    <label class="switch">
+      <input onchange="Send_Data(this)" type="checkbox" id="output" />
+      <span class="slider"></span>
+    </label>
+    <script src="index.js"></script>
+  </body>
+</html>
